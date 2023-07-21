@@ -1,0 +1,32 @@
+body {
+  padding: 84px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#root {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 846px) {
+  #root {
+    width: 95vw;
+  }
+
+  body {
+    padding: 24px;
+  }
+}
+.nav-link.active {
+  color: var(--bs-nav-tabs-link-active-color);
+  background-color: var(--bs-nav-tabs-link-active-bg);
+  border-bottom: 2px solid blue !important;
+}
+
+/* .nav-link {
+  width: 33%;
+} */
+
+.check-line {
+  text-decoration: line-through;
+}
